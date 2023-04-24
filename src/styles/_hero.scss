@@ -1,0 +1,41 @@
+@use 'variaveis';
+
+.hero {
+    padding: 5.6vw;
+    max-width: 75%;
+    
+    &__content {
+        display: flex;
+        justify-content: space-between;        
+        align-items: center;
+
+        @media (max-width: 768px) {
+            display: block;
+            }
+
+        &__play {
+            img {
+                max-width: 260px;
+                
+                @media (max-width: 768px) {
+                    max-width: 40%;
+                    }
+            }
+            text-align: center;
+            color: #fff;            
+        }
+    
+        &__poster {
+            img {
+                max-width: 600px;
+                border-radius: 5px;
+                
+                @media (max-width: 768px) {
+                margin-top: 24px;
+                max-width: 100%;
+                }
+            }
+        }
+    }
+}
+

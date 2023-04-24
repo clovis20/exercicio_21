@@ -1,0 +1,30 @@
+@use 'variaveis';
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: variaveis.$corFundo;
+
+    &__logo {
+        max-width: 160px;
+        width: 100%;
+        margin: 5px;
+    }
+
+    &__container {
+        padding: 8px 36px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__links {
+        display: flex;
+        &__item {
+            display: flex;
+            margin: 5px;
+            align-items: center;
+        }
+    }
+}

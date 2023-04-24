@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício M21</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <a href="#">
+                <img src="./dist/images/EBAC.png" alt="EBAC Logo" class="header__logo">
+                </a>
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button">RETORNAR</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div>
+            <div class="hero__content">
+                <div class="hero__content__play">
+                    <a href="#">
+                        <img src="./dist/images/play.png" alt="Botão de Play">
+                    </a>
+                    <h2>Assistir</h2>
+                </div>
+                <div class="hero__content__poster">
+                    <img src="./dist/images/ForrestGumpPoster3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <nav class="about__menu">
+            <button data-tab-button="sinopse" class="about__menu__button about__menu__button--is-active">
+                SINOPSE
+            </button>
+            <button data-tab-button="atores" class="about__menu__button">
+                ATORES
+            </button>
+            <button data-tab-button="producao" class="about__menu__button">
+                PRODUÇÃO
+            </button>
+        </nav>
+        <ul data-tab-id="sinopse" class="about__tabs about__tabs--is-active">
+            <li class="about__tabs__item">
+                <p>Mesmo com o raciocínio lento, Forrest Gump nunca se sentiu desfavorecido. Graças ao apoio da mãe, ele teve uma vida normal.<br><br>
+                Seja no campo de futebol como um astro do esporte, lutando no Vietnã ou como capitão de um barco de pesca de camarão, Forrest inspira a todos com seu otimismo.<br><br> Mas a pessoa que Forrest mais ama pode ser a mais difícil de salvar: seu amor de infância, a doce e perturbada Jenny.</p>
+            </li>
+        </ul>
+        <ul data-tab-id="atores" class="about__tabs">
+            <ul class="about__img">
+                <li class="about__tabs__item">
+                    <img src="./dist/images/actor/tom.jpg" alt="Tom Hanks"></br>
+                    <strong>Tom Hanks</strong>
+                    <p>Forrest Gump</p>
+                </li>
+                <li class="about__tabs__item">
+                    <img src="./dist/images/actor/robin.jpg" alt="Robin Wright"></br>
+                    <strong>Robin Wright</strong>
+                    <p>Jenny Curran</p>
+                </li>
+                <li class="about__tabs__item">
+                    <img src="./dist/images/actor/gary.jpg" alt="Gary Sinise"></br>
+                    <strong>Gary Sinise</strong>
+                    <p>Ten. Dan Taylor</p>
+                </li>
+                <li class="about__tabs__item">
+                    <img src="./dist/images/actor/sally.jpg" alt="Sally Field"></br>
+                    <strong>Sally Field</strong>
+                    <p>Sra. Gump</p>
+                </li>
+                <li class="about__tabs__item">
+                    <img src="./dist/images/actor/mykelti.jpg" alt="Mykelti Williamson"></br>
+                    <strong>Mykelti Williamson</strong>
+                    <p>Benjamin Buford</p>
+                </li>
+                <li class="about__tabs__item">
+                    <img src="./dist/images/actor/haley.jpg" alt="Haley Joel"></br>
+                    <strong>Haley Joel</strong>
+                    <p>Forrest Gump Jr.</p>
+                </li>
+            </ul>
+        </ul>
+        <ul data-tab-id="producao" class="about__tabs">
+            <ul class="about__img">
+                <li class="about__tabs__item">
+                    <img src="./dist/images/prod/robert.jpg" alt="Robert Zemeckis"></br>
+                    <strong>Robert Zemeckis</strong>
+                    <p>Diretor</p>
+                </li>
+                <li class="about__tabs__item">
+                    <img src="./dist/images/prod/eric.jpg" alt="Eric Roth"></br>
+                    <strong>Eric Roth</strong>
+                    <p>Roteirista</p>
+                </li>
+                <li class="about__tabs__item">
+                    <img src="./dist/images/prod/wendy.jpg" alt="Wendy Finerman"></br>
+                    <strong>Wendy Finerman</strong>
+                    <p>Produtora</p>
+                </li>
+            </ul>
+        </ul>
+    </section>
+    <section class="devices">
+        <h2 class="title">
+            Assista nos seu disposito favorito
+        </h2>
+        <ul class="devices__list">
+            <li class="devices__list__item">
+                <img src="./dist/images/devices/computador.png" alt="Computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="devices__list__item">
+                <img src="./dist/images/devices/tv.png" alt="TV">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Smart TVs</li>
+                    <li>Chromecast</li>
+                </ul>
+            </li>
+            <li class="devices__list__item">
+                <img src="./dist/images/devices/videogames.png" alt="Videogame">
+                <h4 class="title--small">Videogame</h4>
+                <ul class="text">
+                    <li>PS4/PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X/S</li>
+                </ul>
+            </li>
+            <li class="devices__list__item">
+                <img src="./dist/images/devices/celular.png" alt="Celular">
+                <h4 class="title--small">Celulares e Tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>IPhone e Ipad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta??
+                </div>
+                <div class="faq__questions__item__answer text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolorem minus similique maxime dicta vel sequi assumenda quasi esse cum, dolore voluptatum hic enim! Provident quibusdam culpa rerum eligendi commodi!
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta??
+                </div>
+                <div class="faq__questions__item__answer text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolorem minus similique maxime dicta vel sequi assumenda quasi esse cum, dolore voluptatum hic enim! Provident quibusdam culpa rerum eligendi commodi!
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta??
+                </div>
+                <div class="faq__questions__item__answer text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolorem minus similique maxime dicta vel sequi assumenda quasi esse cum, dolore voluptatum hic enim! Provident quibusdam culpa rerum eligendi commodi!
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img src="./dist/images/EBAC.png" alt="" class="footer__logo">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/globe.svg" alt="">
+                        <select>
+                            <option>English</option>
+                            <option>Português</option>
+                        </select>                        
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e condições de uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o EBAC+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2023 EBAC, EBAC+ e The EBAC Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                EBAC+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço EBAC+ é comercializado por The EBAC Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04444-444, Brasil e CNPJ/M 77.777.777/0000-00
+            </p>
+        </div>
+    </footer>
+    <script src="./src/main.js"></script>
+</body>
+</html>
